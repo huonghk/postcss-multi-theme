@@ -1,0 +1,32 @@
+{
+  "name": "PLUGIN_NAME",
+  "version": "0.0.0",
+  "description": "PostCSS plugin PLUGIN_DESC",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "multi-theme",
+  ],
+  "author": "Huong Hk <huonghk.uit@gmail.com>",
+  "license": "MIT",
+  "repository": "https://github.com/huonghk/postcss-multi-theme",
+  "bugs": {
+    "url": "https://github.com/huonghk/postcss-multi-theme/issues"
+  },
+  "homepage": "https://github.com/huonghk/postcss-multi-theme",
+  "dependencies": {
+    "postcss": "^5.2.0"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "eslint": "^3.4.0",
+    "eslint-config-postcss": "^2.0.2"
+  },
+  "scripts": {
+    "test": "ava && eslint *.js"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5"
+  }
+}
